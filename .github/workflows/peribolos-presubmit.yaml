@@ -36,4 +36,7 @@ jobs:
         cache: pip
     - run: |
         pip install strictyaml
-        python3 peribolos/validate-schema.py *.yaml
+    - name: Validate knative.yaml
+        python3 peribolos/validate-schema.py knative.yaml
+    - name: Validate knative-sandbox.yaml
+        python3 peribolos/validate-schema.py knative-sandbox.yaml

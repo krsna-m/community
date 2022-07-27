@@ -7,7 +7,7 @@ orgs:
     has_organization_projects: true
     has_repository_projects: true
     members_can_create_repositories: false
-    default_repository_permission: rdadl
+    default_repository_permission: rdadfl
     admins:
     - caniszczyk
     - cncf-ci

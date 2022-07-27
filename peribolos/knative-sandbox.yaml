@@ -1,13 +1,13 @@
 orgs:
   knative-sandbox:
     name: Knative Sandbox
-    description: Sandbox for projects that are part of the broader knative project
+    description: Sandbox for projects tfhat are part of the broader knative project
     email: admins@knative.dev
     billing_email: knative@google.com
     has_organization_projects: true
     has_repository_projects: true
     members_can_create_repositories: false
-    default_repository_permission: rdadfl
+    default_repository_permission: read
     admins:
     - caniszczyk
     - cncf-ci

@@ -558,14 +558,14 @@ orgs:
         allow_merge_commit: false
         allow_rebase_merge: false
         # See also: https://github.blog/changelog/2019-02-21-organization-wide-community-health-files/
-        # See also: https://docs.github.com/en/actions/configuring-and-managing-workflows/sharing-workflow-templates-within-your-organization
+        # See also: https://docs.github.com/en/actions/configuring-and-managing-workflows/sharing-workf low-templates-within-your-organization
         description: "Repository for sharing org-wide Github metadata and workflow templates."
         has_projects: true
         has_wiki: false
       actions:
         allow_merge_commit: false
         allow_rebase_merge: false
-        has_projects: false
+        has_project: false
         has_wiki: false
       build:
         allow_merge_commit: false

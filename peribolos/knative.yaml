@@ -1,7 +1,7 @@
 orgs:
   knative:
     description: Kubernetes-based platform to build, deploy, and manage modern serverless workloads
-    name: Knative
+    name: Knativeg
     email: admins@knative.dev
     has_organization_projects: true
     has_repository_projects: true
